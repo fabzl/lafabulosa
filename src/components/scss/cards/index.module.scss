@@ -3,6 +3,8 @@
   flex-flow: row wrap;
   flex: 1;
   padding-bottom: 1rem;
+  text-align: center;
+  justify-content: center;
 
   @media (max-width: 575px) {
     flex-direction: column;
@@ -10,7 +12,7 @@
 }
 
 .cardWrapper {
-  width: 25%;
+  width: 50%;
   @media (max-width: 575px) {
     width: 100%;
   }
