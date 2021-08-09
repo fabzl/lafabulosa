@@ -14,7 +14,6 @@ export const Footer: React.FC = () => {
           height="auto"
         />
       </a>
-
       <div className={styles.x}>X</div>
       <div className={styles.icons}>
          
@@ -77,7 +76,7 @@ export const Footer: React.FC = () => {
         </a>
       </div>
       <div>
-      <a class={styles.mailto} href="mailto:hola@lafabulosa.org" >hola@lafabulosa.org</a></div>
+      <a className={styles.mailto} href="mailto:hola@lafabulosa.org" >hola@lafabulosa.org</a></div>
     </div>
   );
 };
