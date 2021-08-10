@@ -11,7 +11,7 @@ export const Button: React.FC<IButton> = ({ children, ...props }) => {
     <a
       {...props}
       target="_blank"
-      href="https://pankod.github.io/superplate/"
+      href="https://lafabulosa.org"
       rel="noopener noreferrer"
       className={styles.button}
     >

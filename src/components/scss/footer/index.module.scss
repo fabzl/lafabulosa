@@ -5,6 +5,12 @@
   background-color: #282c34;
   color: #ffffff;
   padding: 2rem 0;
+  
+  .mailto {  
+    text-decoration: none;
+    color: #ffffff;
+    margin-top: 3rem;
+  }
 }
 .content {
   display: flex;
@@ -12,7 +18,9 @@
   align-items: center;
 }
 .icons {
+  
   margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   a:not(:last-child) {
     margin-right: 1.5rem;
   }
@@ -21,10 +29,4 @@
     text-transform: uppercase;
   }
 
-  .mailto {
-    
-    text-decoration: none;
-    color: #ffffff;
-    margin: 1.5rem;
-  }
 }
