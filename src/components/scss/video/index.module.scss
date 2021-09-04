@@ -1,12 +1,21 @@
-.main {
-  background-color: #282c34;
-  color: #ffffff;
+.video {
+
   text-align: center;
   padding: 2rem 0;
+  position: relative;
+  width: auto;
+  height: 300px;
 
   h1 {
-    color: #ffffff;
+    color: #666666;
     font-size: 2.875rem;
   }
 
+}
+
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
 }

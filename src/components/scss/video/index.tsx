@@ -1,15 +1,20 @@
 import React from "react";
 import styles from "./index.module.scss";
-import { Button } from "@components/scss";
-import Image from "next/image";
+import ReactPlayer from 'react-player'
 
-export const Main: React.FC = () => {
+
+export const Video: React.FC = (obj) => {
+  let vimeoURL ='https://vimeo.com/'+obj.props
+  console.dir(obj.props)
   return (
-    <div className={styles.main}>
-      <Image src="/img/logo_white.svg" alt="la fabulosa" width="896" height="158" />
-      <h1>la fabulosa para los amigos ! </h1>
-      <p>A collaborative corporation for the new world</p>
-      <Button>Read More</Button>
+    <div className={styles.video}>
+    
+      <ReactPlayer
+          url={vimeoURL} 
+          className='react-player'
+          width='100%'
+          height='100%'
+        />
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Header, Main, Cards, Footer } from "@components/scss";
+import { Header, Main, Cards, Footer, Video } from "@components/scss";
 
 const Home: React.FC = () => {
   return (
@@ -13,9 +13,13 @@ const Home: React.FC = () => {
     >
       <Header />
       <Main />
-   <div>   <iframe src="https://player.vimeo.com/video/593952509?h=193da2e32f" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/593952509">La Fabulosa Rep&uacute;blica de la Monta&ntilde;a</a> from <a href="https://vimeo.com/fabzfabzfabz">La Fabulosa</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-</div>
+      <Video props="593952509" />
+      <Video props="594364233" />
+      <Video props="593578556" />
+      <Video props="596517235" />
+      <Video props="595974996" />
+      <Video props="596017591" />
+
       <Cards />
       <Footer />
     </div>
