@@ -10,8 +10,16 @@
     text-decoration: none;
     color: #ffffff;
     margin-top: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
   }
 }
+.manifest {
+   font-size: 0.75rem;
+   max-width: 50%;
+   align-self: center;
+}
+
 .content {
   display: flex;
   flex-direction: column;

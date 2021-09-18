@@ -15,9 +15,12 @@ export const Footer: React.FC = () => {
         />
       </a>
       <div className={styles.x}>X</div>
+      <p className={styles.manifest}>Utopian micronation from the foothills of the Andes.</p>
       <div className={styles.icons}>
+   
          
       <a href="tel:+56930965485" target="_blank">
+        
           <Image
             src="/icons/whatsapp-icon.svg"
             alt="whatsapp"
