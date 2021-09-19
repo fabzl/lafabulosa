@@ -6,84 +6,97 @@
       "background": "/img/catcus2.jpg",
       "description":"",
       "url": "",
-      "vimeoUrl": "https://vimeo.com/593952509"
-    },
-    {
-      "name": "Chin Chin tirapie ",
-      "background": "/img/chinchin-tirapie.jpg",
-      "description": "Sass is a stylesheet language that’s compiled to CSS. It allows you to use variables, nested rules, mixins, functions, and more, all with a fully CSS-compatible syntax.",
-      "url": "https://sass-lang.com/documentation",
-      "vimeoUrl": "https://vimeo.com/594364233"
+      "vimeoUrl": "https://vimeo.com/593952509",
+      "size": "tall big"
     },
     {
       "name": "Documental Olla Común",
       "background": "/img/postcard_1_es@2x-100.jpg",
       "description": "Sass is a stylesheet language that’s compiled to CSS. It allows you to use variables, nested rules, mixins, functions, and more, all with a fully CSS-compatible syntax.",
       "url": "https://documentalollacomun.com",
-      "vimeoUrl": "false"
-    },   
+      "vimeoUrl": "false",
+      "size": "tall"
+    },  
+    {
+      "name": "Chin Chin tirapie ",
+      "background": "/img/chinchin-tirapie.jpg",
+      "description": "Sass is a stylesheet language that’s compiled to CSS. It allows you to use variables, nested rules, mixins, functions, and more, all with a fully CSS-compatible syntax.",
+      "url": "https://sass-lang.com/documentation",
+      "vimeoUrl": "https://vimeo.com/594364233",
+      "size": "tall"
+    },
+    
     {
       "name": "white Sample LiveSet",
       "background": "/img/catcus2.jpg",
       "description": "Sass is a stylesheet language that’s compiled to CSS. It allows you to use variables, nested rules, mixins, functions, and more, all with a fully CSS-compatible syntax.",
       "vimeoUrl": "https://www.twitch.tv/videos/1145979833",
-      "url": "https://sass-lang.com/documentation"
+      "url": "https://sass-lang.com/documentation",
+      "size": "big"
     },
     {
     "name": "Cooking for Freedom",
     "background": "/img/cover-photo-cooking-for-freedom.jpg",
     "description": "Sass is a stylesheet language that’s compiled to CSS. It allows you to use variables, nested rules, mixins, functions, and more, all with a fully CSS-compatible syntax.",
     "vimeoUrl": "false",
-    "url": "https://sass-lang.com/documentation"
+    "url": "https://sass-lang.com/documentation",
+    "size": "normal"
    },
    {
     "name": "Ríos Libres",
     "background": "/img/catcus2.jpg",
     "description": "Sass is a stylesheet language that’s compiled to CSS. It allows you to use variables, nested rules, mixins, functions, and more, all with a fully CSS-compatible syntax.",
     "vimeoUrl": "false",
-    "url": "https://sass-lang.com/documentation"
+    "url": "https://sass-lang.com/documentation",
+    "size": "tall big"
    },
    {
     "name": "Autonomy / Depedency",
     "background": "/img/catcus2.jpg",
     "description": "Sass is a stylesheet language that’s compiled to CSS. It allows you to use variables, nested rules, mixins, functions, and more, all with a fully CSS-compatible syntax.",
     "vimeoUrl": "false",
-    "url": "https://sass-lang.com/documentation"
+    "url": "https://sass-lang.com/documentation",
+    "size": "normal"
    },
    {
     "name": "ShipWreck Viña Iolani",
     "background": "/img/catcus2.jpg",
     "description": "Sass is a stylesheet language that’s compiled to CSS. It allows you to use variables, nested rules, mixins, functions, and more, all with a fully CSS-compatible syntax.",
     "vimeoUrl": "false",
-    "url": "https://sass-lang.com/documentation"
+    "url": "https://sass-lang.com/documentation",
+    "size": "normal"
    },
    {
     "name": "La Internacional de Allende",
     "background": "/img/catcus2.jpg",
     "description": "Sass is a stylesheet language that’s compiled to CSS. It allows you to use variables, nested rules, mixins, functions, and more, all with a fully CSS-compatible syntax.",
     "vimeoUrl": "false",
-    "url": "https://sass-lang.com/documentation"
+    "url": "https://sass-lang.com/documentation",
+    "size": "normal"
    },
    {
     "name": "Cuicos vs Flaites",
     "background": "/img/cvf.jpg",
     "description": "Sass is a stylesheet language that’s compiled to CSS. It allows you to use variables, nested rules, mixins, functions, and more, all with a fully CSS-compatible syntax.",
     "vimeoUrl": "false",
-    "url": "https://sass-lang.com/documentation"
+    "url": "https://sass-lang.com/documentation",
+    "size": "normal"
    },
    {
     "name": "FIMFF",
     "background": "/img/catcus2.jpg",
     "description": "Sass is a stylesheet language that’s compiled to CSS. It allows you to use variables, nested rules, mixins, functions, and more, all with a fully CSS-compatible syntax.",
     "vimeoUrl": "false",
-    "url": "https://sass-lang.com/documentation"
+    "url": "https://sass-lang.com/documentation",
+    "size": "normal"
    },
    {
     "name": "VIOLETA PARRA",
     "background": "/img/catcus2.jpg",
     "description": "Sass is a stylesheet language that’s compiled to CSS. It allows you to use variables, nested rules, mixins, functions, and more, all with a fully CSS-compatible syntax.",
     "vimeoUrl": "false",
-    "url": "https://sass-lang.com/documentation"
+    "url": "https://sass-lang.com/documentation",
+    "size": "normal"
    }
   ]
 }

@@ -19,7 +19,6 @@ export const Card: React.FC<CardProps> = ({ title, children, background, descrip
       {console.log(vimeoUrl)}
       { vimeoUrl !== "false" ?  
            <div>
-           
              <ReactPlayer
                url={vimeoUrl} 
                className='react-player'
@@ -30,10 +29,11 @@ export const Card: React.FC<CardProps> = ({ title, children, background, descrip
             <div className={styles.header}>{title}</div>
             </div> :
            <div>
-            <Image className={styles.logo} src={background}  alt={title} placeholder="blur" width="auto" height="auto" />
+            <Image className={styles.image} src={background}  alt={title} placeholder="blur" width="auto" height="auto" />
             <div className={styles.header}>{title}</div>
             <p>{description}</p>
-            <div>{children}</div></div>
+            <div>{children}</div>
+            </div>
       }
     </div>
   );
