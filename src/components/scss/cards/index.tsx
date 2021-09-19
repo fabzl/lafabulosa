@@ -28,8 +28,7 @@ export const Cards: React.FC = () => {
   return (
     <div className={styles.cards}>
       {(data?.plugins ?? []).map((plugin) => (
-        <div key={`key-${plugin.name}`} className={ returnStyle(plugin.size)  }>
-        
+        <div key={`key-${plugin.name}`} className={ returnStyle(plugin.size)  }>    
           <Card title={plugin.name} vimeoUrl={plugin.vimeoUrl} description={plugin.description} background={plugin.background} ></Card>
         </div>
       ))}
