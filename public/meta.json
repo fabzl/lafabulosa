@@ -2,11 +2,12 @@
   "name": "lafabulosa",
   "plugins": [
     {
-      "name": "La Fabulosa para los amigos",
+      "name": "A collaborative corporation for the new world",
       "nombre": "La Fabulosa para los amigos",
-      "backgroundURL": "/img/catcus2.jpg",
+      "backgroundURL": "",
       "posterURL": "",
-      "description":"La Fabulosa República de la Montaña aka La Fabulosa” it's a digital and audiovisual design production company, based in a Permaculture farm in Peñalolén, Chile. We are dedicated to generate projects that can change the mentality people's minds towards a better co-exist. The company is also a melting pot for creators across the world. We are dedicated to storytelling and games to help tackle the global crisis. Write us we will be happy to talk.",
+      
+      "description":"La Fabulosa República de la Montaña aka La Fabulosa” it's a digital and audiovisual design production company an permaculture farm located in Peñalolén, Chile. We are dedicated to generate projects that can change people's minds towards a better co-exist. We are dedicated to make awesome storytelling but mainly playful experiences to help tackle the global crisis. Write us we will be happy to talk.",
       "descripcion":"La Fabulosa República de la Montaña aka La Fabulosa” es una productora de diseño digital y audiovisual, basada en una granja de Permacultura en Peñalolén, Chile, con un profundo sentido ecológico y ambiental está dedicada a generar proyectos que puedan cambiar la mentalidad de las personas para lograr un mejor co-existir. La empresa es también una granja de permacultura y punto de encuentro digital para creadores a través del mundo. Nos dedicamos a contar historias y a crear juegos para ayudar a enfrentar la crisis global.  Escríbenos estaremos felices de conversar.",
       "url": "",
       "videoUrl": "https://vimeo.com/593952509",
@@ -14,11 +15,12 @@
     },
     {
       "name": "The Common Pot Documentary",
+      "hideName":"true", 
+      "hideDescription":"true",
       "nombre": "Documental Olla Común",
-      "backgroundURL": "/img/postcard_1_es@2x-100.jpg",
-      "posterURL": "/img/catcus2.jpg",
-      "description": "The stories of an organization that remained in the collective memory for decades, and that reappears every time hunger threatens the people.",
-      "descripcion": "Las historias de una organizacion que permanecido en la memoria colectiva por décadas, y que reaparece cada vez que el hambre amenaza al pueblo.",
+      "backgroundURL": "/img/fondo-olla.svg",
+      "posterURL": "/img/olla-eng.svg",
+      
       "url": "https://documentalollacomun.com",
       "videoUrl": "https://www.youtube.com/watch?v=0tJlzBoMcZU&list=PLxYNibi7YmZp-E2sfudFESbZQOqLIp9NP",
       "cardtype": "videopostcard"

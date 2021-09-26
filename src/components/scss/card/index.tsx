@@ -15,31 +15,22 @@ type CardProps = {
   cardtype:  string; 
   url: string; 
   children: React.ReactNode;
+  hideName: boolean;
 };
 
-export const Card: React.FC<CardProps> = ({ title, children, url, background, description, poster, cardtype, videoUrl }) => {
+export const Card: React.FC<CardProps> = ({ title, children, url, background, description, poster, cardtype, videoUrl, hideName }) => {
   
   const [showMe, setShowMe] = useState(false);
   function toggle(){
     setShowMe(!showMe);
   }
-  function assignBackground (cardtype) {
-   
-   //) let bg = {"background-image: url("+ background +")"}
 
-    console.log("assign bg:", cardtype, background )
-  //  cardtype == "videopostcard" ?  "background-image: url("/img/art-thing.jpg");"
-   
-   // : "none";
-
-   //return bg
-  }
   
   return (
-    <div className={styles.card +" "+ cardtype  }>
+    <div className={styles.card +" "+ cardtype  } style={{backgroundImage: "url("+background+")"}} >
 
       { videoUrl !== "false" ?  
-          <div className={styles.container} style={{backgroundImage: "url("+background+")"}}  >
+          <div className={styles.container}   >
              <div className={styles.player}>
              <ReactPlayer
                url={videoUrl} 
@@ -48,11 +39,16 @@ export const Card: React.FC<CardProps> = ({ title, children, url, background, de
                height='100%'
                controls={true}
         />
-            </div>
+            </div><Link href={url}> 
              <div className={styles.sideheader}>
-                <h2>{title}</h2>
-                <p>{description}</p>
+            
+             
+              {  poster ?   <Image className={styles.poster} src={poster}  layout='fill' alt={title} placeholder="blur" /> : ""}
+              {  !hideName ?  <h2>{title}</h2>: "" }
+              {  description ?   <p>{description}</p>: "" }
+             
               </div>
+              </Link>
             </div> :
             
            <div onClick={toggle} style={{
@@ -60,24 +56,24 @@ export const Card: React.FC<CardProps> = ({ title, children, url, background, de
           }} className={styles.containercover}>
 
               <div className={styles.coverimage} >
-                <Image className={styles.image} src={background}  alt={title} placeholder="blur" width="1920px" height="1080px" />
+            <Image className={styles.image} src={poster}  alt={title} placeholder="blur" width="1920px" height="1080px" /> }
+                
                 <div className={styles.header}>{title}</div>
                 <p>{description}</p>
                 <div>{children}</div>
               </div>
               <div className={styles.content}>
               
-              </div>
-
-          
+              </div>          
             </div>
 
+
       }
-        { url !== "false" ?     
+        {/* { url !== "false" ?     
               <Link href="/blog/hello-world">
                      <a className={styles.link }>{url}</a>
               </Link> : ""
-            }
+            } */}
     </div>
   );
 };
