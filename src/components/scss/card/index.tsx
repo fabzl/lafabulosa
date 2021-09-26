@@ -23,12 +23,23 @@ export const Card: React.FC<CardProps> = ({ title, children, url, background, de
   function toggle(){
     setShowMe(!showMe);
   }
+  function assignBackground (cardtype) {
+   
+   //) let bg = {"background-image: url("+ background +")"}
+
+    console.log("assign bg:", cardtype, background )
+  //  cardtype == "videopostcard" ?  "background-image: url("/img/art-thing.jpg");"
+   
+   // : "none";
+
+   //return bg
+  }
   
   return (
     <div className={styles.card +" "+ cardtype  }>
 
       { videoUrl !== "false" ?  
-          <div className={styles.container}>
+          <div className={styles.container} style={{backgroundImage: "url("+background+")"}}  >
              <div className={styles.player}>
              <ReactPlayer
                url={videoUrl} 
@@ -64,7 +75,7 @@ export const Card: React.FC<CardProps> = ({ title, children, url, background, de
       }
         { url !== "false" ?     
               <Link href="/blog/hello-world">
-                     <a>{url}</a>
+                     <a className={styles.link }>{url}</a>
               </Link> : ""
             }
     </div>
