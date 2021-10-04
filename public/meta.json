@@ -3,115 +3,109 @@
   "plugins": [
     {
       "name": "A collaborative corporation for the new world",
+      "hideName": false, 
       "nombre": "La Fabulosa para los amigos",
-      "backgroundURL": "",
+      "background": "null",
       "posterURL": "",
-      
       "description":"La Fabulosa República de la Montaña aka La Fabulosa” it's a digital and audiovisual design production company an permaculture farm located in Peñalolén, Chile. We are dedicated to generate projects that can change people's minds towards a better co-exist. We are dedicated to make awesome storytelling but mainly playful experiences to help tackle the global crisis. Write us we will be happy to talk.",
       "descripcion":"La Fabulosa República de la Montaña aka La Fabulosa” es una productora de diseño digital y audiovisual, basada en una granja de Permacultura en Peñalolén, Chile, con un profundo sentido ecológico y ambiental está dedicada a generar proyectos que puedan cambiar la mentalidad de las personas para lograr un mejor co-existir. La empresa es también una granja de permacultura y punto de encuentro digital para creadores a través del mundo. Nos dedicamos a contar historias y a crear juegos para ayudar a enfrentar la crisis global.  Escríbenos estaremos felices de conversar.",
       "url": "",
       "videoUrl": "https://vimeo.com/593952509",
-      "cardtype": "highlight"
+      "cardtype": "highlight",
+      "button":""
     },
     {
       "name": "The Common Pot Documentary",
-      "hideName":"true", 
-      "hideDescription":"true",
+      "hideName":true, 
       "nombre": "Documental Olla Común",
-      "backgroundURL": "/img/fondo-olla.svg",
+      "background": "/img/fondo-olla.svg",
       "posterURL": "/img/olla-eng.svg",
-      
+      "description":"",      
       "url": "https://documentalollacomun.com",
-      "videoUrl": "https://www.youtube.com/watch?v=0tJlzBoMcZU&list=PLxYNibi7YmZp-E2sfudFESbZQOqLIp9NP",
-      "cardtype": "videopostcard"
-
-    }, 
+      "videoUrl": "https://vimeo.com/616245619",
+      "cardtype": "videopostcard",
+      "button":""
+    },
     {
       "name": "Cooking for Freedom",
       "nombre": "Cooking for Freedom",
-      "posterURL": "/img/catcus2.jpg",
-      "backgroundURL": "/img/cover-photo-cooking-for-freedom.jpg",
-      "description": "Sass is a stylesheet language that’s compiled to CSS. It allows you to use variables, nested rules, mixins, functions, and more, all with a fully CSS-compatible syntax.",
-      "videoUrl": "false",
+      "hideName":true, 
+      "posterURL": "/img/cooking.png",
+      "description":"",      
+      "background": "/img/cover-photo-cooking-for-freedom.jpg",
+      "videoUrl": "https://vimeo.com/593954856",
       "url": "https://mariasfelices.com/",
-      "cardtype": "videopostcard"
-     }, 
+      "cardtype": "videopostcard",
+      "button":""
+     },
     {
       "name": "We Tripantú - Chin Chin tirapie ",
       "nombre": "We Tripantú - Chin Chin tirapie ",
-       "posterURL": "/img/catcus2.jpg",
-      "backgroundURL": "/img/demon01.jpg",
+      "posterURL": "",
+      "hideName":false, 
+      "background": "/img/demon01.jpg",
       "descripcion": "La celebración del año nuevo mapuche “We Tripantu”. El solsticio de invierno es la celebración más grande que da la bienvenida al regreso del Sol que trae nueva vida. ",
       "description": "The “We Tripantu” mapuche's new years celebration. The winter solstice is the biggest celebration welcoming the return of the Sun that brings new life.",
       "url": "",
       "videoUrl": "https://vimeo.com/596517235",
-      "cardtype": "videopostcard"
+      "cardtype": "videopostcard",
+      "button":""
     },
-    
     {
       "name": "white Sample LiveSet",
-       "posterURL": "/img/catcus2.jpg",
-      "backgroundURL": "/img/catcus2.jpg",
-      "description": "Sass is a stylesheet language that’s compiled to CSS. It allows you to use variables, nested rules, mixins, functions, and more, all with a fully CSS-compatible syntax.",
+      "posterURL": "",
+      "hideName":false, 
+      "background": "/img/espino.jpg",
+      "description": "",
       "videoUrl": "https://www.twitch.tv/videos/1145979833",
       "url": "",
-      "cardtype": "highlight"
+      "cardtype": "highlight",
+      "button":""
     },
    {
-    "name":"Ríos Libres",
-     "posterURL": "/img/catcus2.jpg",
-    "backgroundURL": "/img/rios.jpg",
-    "description": "Es un juego de cartas con el ilustrador Micheal Yaikel, para recordar la importancia del agua dulce.",
-    "videoUrl": "false",
-    "url": "https://sass-lang.com/documentation",
-      "cardtype": "postcard"
-   },
-   {
-    "name": "Cuicos vs Flaites",
-     "posterURL": "/img/catcus2.jpg",
-    "backgroundURL": "/img/cvf.jpg",
-    "description": "The of a splitted society",
-    "videoUrl": "false",
-    "url": "https://sass-lang.com/documentation",
-     "cardtype": "postcard"
-   },
-   {
     "name": "Autonomy / Depedency",
-     "posterURL": "/img/catcus2.jpg",
-    "backgroundURL": "/img/catcus2.jpg",
+    "posterURL": "/img/catcus2.jpg",
+    "hideName":false, 
+    "background": "/img/catcus2.jpg",
     "description": "Sass is a stylesheet language that’s compiled to CSS. It allows you to use variables, nested rules, mixins, functions, and more, all with a fully CSS-compatible syntax.",
     "videoUrl": "https://vimeo.com/594364233",
     "url": "https://sass-lang.com/documentation",
-      "cardtype": "videopostcard"
+      "cardtype": "videopostcard",
+      "button":""
    },
-   
    {
     "name": "ShipWreck Viña Iolani",
-     "posterURL": "/img/catcus2.jpg",
-    "backgroundURL": "/img/catcus2.jpg",
+    "posterURL": "/img/catcus2.jpg",
+    "background": "/img/catcus2.jpg",
+    "hideName":false, 
     "description": "Sass is a stylesheet language that’s compiled to CSS. It allows you to use variables, nested rules, mixins, functions, and more, all with a fully CSS-compatible syntax.",
     "videoUrl": "https://vimeo.com/530294438",
     "url": "https://sass-lang.com/documentation",
-    "cardtype": "videopostcard"
+    "cardtype": "videopostcard",
+    "button":""
    },
    {
-    "name": "La Internacional de Allende ",
-     "posterURL": "/img/catcus2.jpg",
-    "backgroundURL": "/img/laint.gif",
+    "name": "La Internacional de Allende",
+     "posterURL": "/img/laint.svg",
+     "hideName":false, 
+    "background": "/img/laint.gif",
     "description": "Durante 1000 días, a principios de la década de 1970, el pueblo chileno y la coalición de partidos de izquierda de la Unidad Popular trabajaron por una versión propia de socialismo democrático. A esta experiencia se sumaron colaboradores de todo el mundo.",
     "videoUrl": "false",
     "url": "https://www.internationalallende.org/es/",
-    "cardtype": "postcard"
+    "cardtype": "postcard",
+    "button":""
    },
    {
     "name": "Uky & Lola, in the Land of Fire",
     "nombre": "Uky y Lola, en tierra del Fuego",
+    "hideName":false, 
     "posterURL": "/img/catcus2.jpg",
-    "backgroundURL": "/img/catcus2.jpg",
+    "background": "/img/catcus2.jpg",
     "description": "Sass is a stylesheet language that’s compiled to CSS. It allows you to use variables, nested rules, mixins, functions, and more, all with a fully CSS-compatible syntax.",
     "videoUrl": "https://vimeo.com/609319951",
     "url": "wildbunch.net",
-    "cardtype": "videopostcard"
+    "cardtype": "videopostcard",
+    "button":""
    }
   ]
 }
