@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Header, Main, Cards, Footer } from "@components/scss";
+import { Header, Main, Cards, Footer, GetInTouch } from "@components/scss";
 
 
 const Home: React.FC = () => {
@@ -15,6 +15,7 @@ const Home: React.FC = () => {
     >
     <Header />
       <Main /> 
+      <GetInTouch /> 
       <Cards />
       <Footer /> 
     </div>
